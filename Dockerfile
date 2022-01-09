@@ -1,11 +1,3 @@
-#FROM python:3.9
-#
-#ADD app/app.py .
-#
-#RUN pip install flask
-#
-#CMD [ "python", "./app.py" ]
-
 # Load base python image
 FROM python:3.9
 
